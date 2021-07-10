@@ -12,5 +12,10 @@ namespace TestRepo.Data
             : base(options)
         {
         }
+
+        public DbSet<Car> Cars { get; set; }
+
+        public DbSet<Issue> Issues { get; set; }
+
     }
 }
