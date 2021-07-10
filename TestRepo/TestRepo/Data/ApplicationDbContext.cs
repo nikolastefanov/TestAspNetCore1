@@ -13,14 +13,10 @@ namespace TestRepo.Data
             : base(options)
         {
         }
-
-        public DbSet<Car> Cars { get; set; }
-
-        public DbSet<Issue> Issues { get; set; }
-
+        public DbSet<Car> Cars{ get; set; }
+        public DbSet<Issue> Issues{ get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
-        {            
-
+        {
             base.OnModelCreating(builder);
         }
     }
