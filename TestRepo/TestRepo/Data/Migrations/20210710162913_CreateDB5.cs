@@ -2,7 +2,7 @@
 
 namespace TestRepo.Data.Migrations
 {
-    public partial class CreateDB3 : Migration
+    public partial class CreateDB5 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

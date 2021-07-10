@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
+
 namespace TestRepo.Data
 {
     public class ApplicationDbContext : IdentityDbContext
@@ -17,5 +18,10 @@ namespace TestRepo.Data
 
         public DbSet<Issue> Issues { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder builder)
+        {            
+
+            base.OnModelCreating(builder);
+        }
     }
 }

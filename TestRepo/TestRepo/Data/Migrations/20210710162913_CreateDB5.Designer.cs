@@ -10,8 +10,8 @@ using TestRepo.Data;
 namespace TestRepo.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210710114423_CreateDB3")]
-    partial class CreateDB3
+    [Migration("20210710162913_CreateDB5")]
+    partial class CreateDB5
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
